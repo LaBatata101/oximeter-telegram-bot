@@ -1,38 +1,10 @@
-aiodns @ file:///home/labatata/.cache/pypoetry/artifacts/35/76/3b/b4146ad3e887aa8130dec921ea69e45d4deb7981cadfa5a46272ee53db/aiodns-3.0.0-py3-none-any.whl
-aiohttp @ file:///home/labatata/.cache/pypoetry/artifacts/ec/c9/b8/045a900f6bd96c4ad567ba36e5cac7b7c00d1a7d0d53999cac47495ef0/aiohttp-3.8.1-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl
-aiosignal @ file:///home/labatata/.cache/pypoetry/artifacts/30/30/0d/903be6c7ed45c2c0427a2a18486bb6ceb0a700c346a94414b6b395e16e/aiosignal-1.2.0-py3-none-any.whl
 anyio==3.6.1
 APScheduler==3.9.1
-async-timeout @ file:///home/labatata/.cache/pypoetry/artifacts/5e/15/15/173c5bae6f8d28fa399857d021326b2b05fc2debcbc7bcae7c5bf79891/async_timeout-4.0.2-py3-none-any.whl
-attrs @ file:///home/labatata/.cache/pypoetry/artifacts/c4/ee/75/fcd6c2f4c5a1d60b1bcd97014702ca01b3f032fd927d88780b38708409/attrs-21.4.0-py2.py3-none-any.whl
-Brotli @ file:///home/labatata/.cache/pypoetry/artifacts/e4/50/2b/ba2c9a33944d962bc7b0f8cef1cfc9c02aaa80ad0b9a9234b4973de32d/Brotli-1.0.9-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl
 cachetools==5.2.0
-cchardet @ file:///home/labatata/.cache/pypoetry/artifacts/19/4b/ee/54a2fb42a3316b07a2e3421088822915d6f931052658578ec1aad977ea/cchardet-2.1.7.tar.gz
-certifi @ file:///home/labatata/.cache/pypoetry/artifacts/b1/9b/6f/cd63ce97294ee9a1fb57e5cebf02f251fbb8f9ac48353a27ceeddc410b/certifi-2022.6.15-py3-none-any.whl
-cffi @ file:///home/labatata/.cache/pypoetry/artifacts/8f/03/c5/3cf9dd7e8f36733162538ee0346ef86f4ad0f08a663096e18a252718fb/cffi-1.15.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-charset-normalizer @ file:///home/labatata/.cache/pypoetry/artifacts/86/c8/3e/d878881698fbd2b72f484e4fca340588d633102920a002b66a293f9480/charset_normalizer-2.1.0-py3-none-any.whl
-frozenlist @ file:///home/labatata/.cache/pypoetry/artifacts/ec/80/77/bdf92e2c93e0459cdcd039035f23def398b35a35e695631bef3abdb209/frozenlist-1.3.0-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
 h11==0.12.0
 httpcore==0.15.0
 httpx==0.23.0
 idna==3.3
-more-itertools @ file:///home/labatata/.cache/pypoetry/artifacts/e1/1e/89/7079d5c51be8a7cec62bf074bb5cd4412c642eea637bb5afeacccb1414/more_itertools-8.13.0-py3-none-any.whl
-multidict @ file:///home/labatata/.cache/pypoetry/artifacts/fc/03/de/7ff4d4eef94dd924e44bf6a7cd431a49013f48825f82687d4ba8bbb1e1/multidict-6.0.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-packaging @ file:///home/labatata/.cache/pypoetry/artifacts/d3/1f/90/3f2473250ebd055fe7f0856810677783949fc0d2e5f25bbb4dc00ad0a9/packaging-21.3-py3-none-any.whl
-pluggy @ file:///home/labatata/.cache/pypoetry/artifacts/5c/74/60/0a66715d8599e4bd0cf44f05ca11f99f9a3674820bd68856704692b818/pluggy-0.13.1-py2.py3-none-any.whl
-py @ file:///home/labatata/.cache/pypoetry/artifacts/71/fb/64/bfdc833c2055a893883f33deaac35ef2cbdd95d58031cfc69a630f32bf/py-1.11.0-py2.py3-none-any.whl
-pycares @ file:///home/labatata/.cache/pypoetry/artifacts/14/40/ed/4d8a19c8896b359cc7d97cfbdb1204d73af4d5c107642597e3e10b49d8/pycares-4.2.1-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl
-pycparser @ file:///home/labatata/.cache/pypoetry/artifacts/08/b1/1b/4618699096207aa9eba9fa35118b2b6544fd1c9c2a79ea3601a3d325a0/pycparser-2.21-py2.py3-none-any.whl
-pyparsing @ file:///home/labatata/.cache/pypoetry/artifacts/e1/09/c0/6a6df3ef412eb19fcda1b353ea54e3b48f9c518348fadd0967a962cbb6/pyparsing-3.0.9-py3-none-any.whl
-pytest @ file:///home/labatata/.cache/pypoetry/artifacts/57/1c/f3/15f706754e9e232390482021cb2d6b1308eb6ad0d8160b165a2e2307ef/pytest-5.4.3-py3-none-any.whl
 python-telegram-bot==20.0a2
-pytz @ file:///home/labatata/.cache/pypoetry/artifacts/76/c4/54/e82c514018d400ab72bc3cc53469bd3b519f30e674c7d905fd7c872314/pytz-2022.1-py2.py3-none-any.whl
-pytz-deprecation-shim @ file:///home/labatata/.cache/pypoetry/artifacts/69/4e/3b/1a50b29aeb6707c1786b97d82e44a06ea20a19d3f3e8bdb7842e30fa98/pytz_deprecation_shim-0.1.0.post0-py2.py3-none-any.whl
 rfc3986==1.5.0
-six @ file:///home/labatata/.cache/pypoetry/artifacts/89/b2/f8/fd92b6d5daa0f8889429b2fc67ec21eedc5cae5d531ee2853828ced6c7/six-1.16.0-py2.py3-none-any.whl
 sniffio==1.2.0
-tornado @ file:///home/labatata/.cache/pypoetry/artifacts/2b/7a/c0/b2bec61d0b8eff8cc6be6df3e65d6d1fa7e17187c2352a077a64a3d627/tornado-6.2-cp37-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-tzdata @ file:///home/labatata/.cache/pypoetry/artifacts/cb/cf/58/d3781360e8d88c03434141c34bb31c6a69dd4113aacf419a5fc992aac4/tzdata-2022.1-py2.py3-none-any.whl
-tzlocal @ file:///home/labatata/.cache/pypoetry/artifacts/23/f1/36/5a9f44507c0bd9be4b2768426f1c74c271613aa8de90dd20060998aee0/tzlocal-4.2-py3-none-any.whl
-wcwidth @ file:///home/labatata/.cache/pypoetry/artifacts/f1/2c/b7/d07af82a7caf20dd582cb8799baa7afd56c6240109e527ee2a904b43e4/wcwidth-0.2.5-py2.py3-none-any.whl
-yarl @ file:///home/labatata/.cache/pypoetry/artifacts/ab/46/71/ee32588139cc0f07f94e65cac6c281e6376e186842dbe17a31b0c4ea0f/yarl-1.7.2-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl
