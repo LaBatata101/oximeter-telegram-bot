@@ -22,7 +22,7 @@ async def fetch_sensor_data(context: ContextTypes.DEFAULT_TYPE):
             date = datetime.strptime(data["date"], "%Y-%m-%dT%H:%M:%S")
             time_diff = (datetime.now() - date).total_seconds()
             print(f"{time_diff=}")
-            if 0 < time_diff <= 5:
+            if 0 < time_diff <= 7:
                 await context.bot.send_message(job.chat_id, f"❤️ {data['bpm']} bpm\n🫁 {data['spo2']}% SpO2")
             else:
                 await context.bot.send_message(job.chat_id, "Nenhum dado recente foi recebido do oxímetro!")
