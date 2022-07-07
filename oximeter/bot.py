@@ -1,8 +1,9 @@
 import logging
 import os
-from datetime import datetime
+from datetime import datetime, timezone
 
 import aiohttp
+import pytz
 from telegram import Update
 from telegram.ext import (ApplicationBuilder, CommandHandler, ContextTypes,
                           MessageHandler, filters)
@@ -19,9 +20,13 @@ async def fetch_sensor_data(context: ContextTypes.DEFAULT_TYPE):
     async with aiohttp.ClientSession() as session:
         async with session.get(f"{BASE_URL}/sensor/last/") as response:
             data = await response.json()
-            date = datetime.strptime(data["date"], "%Y-%m-%dT%H:%M:%S")
-            time_diff = (datetime.now() - date).total_seconds()
-            print(f"{time_diff=}")
+            date = datetime.strptime(data["date"], "%Y-%m-%dT%H:%M:%S").replace(
+                tzinfo=pytz.timezone("America/Fortaleza")
+            )
+            date_now = datetime.now().replace(tzinfo=pytz.timezone("America/Fortaleza"))
+            time_diff = (date_now - date).seconds
+            print(f"{date_now=}\n{date=}")
+            print(f"{date_now.strftime('%Y-%m-%dT%H:%M:%S')=}\n{date.strftime('%Y-%m-%dT%H:%M:%S')=}\n{time_diff=}")
             if 0 < time_diff <= 7:
                 await context.bot.send_message(job.chat_id, f"❤️ {data['bpm']} bpm\n🫁 {data['spo2']}% SpO2")
             else:
