@@ -1,6 +1,6 @@
 import logging
 import os
-from datetime import datetime, timezone
+from datetime import datetime
 from typing import Any, Optional
 
 import aiohttp
@@ -128,11 +128,12 @@ async def parse_arguments(chat_id: int, context: ContextTypes.DEFAULT_TYPE) -> O
                 await context.bot.send_message(
                     chat_id=chat_id,
                     text=f"""
-    Opção desconhecida *{date_type}*\\.
-    Opções disponíveis: *dia*, *mes* ou *ano*\\.
+Opção desconhecida *{date_type}*\\.
+Opções disponíveis: *dia*, *mes* ou *ano*\\.
     """,
                     parse_mode=ParseMode.MARKDOWN_V2,
                 )
+                return None
     except ValueError:
         await context.bot.send_message(
             chat_id=chat_id,
